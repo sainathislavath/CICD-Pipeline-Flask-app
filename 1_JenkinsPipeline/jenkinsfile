@@ -2,11 +2,11 @@ pipeline {
     agent any
     
     environment {
-        GIT_REPO = 'https://github.com/kushal1997/Demo-Flask-App-CICD.git'
+        GIT_REPO = 'https://github.com/sainathislavath/CICD-Pipeline-Flask-app'
         SSH_CRED = 'jenkins_ec2_ssh_key'
-        EC2_IP = '35.88.78.52'
+        EC2_IP = '54.203.89.24'
         EC2_USERNAME = 'ubuntu'
-        EMAIL = 'kushalrao123@gmail.com'
+        EMAIL = 'sainathislavath7@gmail.com'
     }
 
     stages {
