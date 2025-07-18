@@ -94,66 +94,6 @@ Before setting up the Jenkins pipeline, ensure the following are configured:
 - Failure emails include the build link
 
 ---
-
-## 🖼️ Screenshots
-
-1. ✅ Jenkins Setup Page
-<p align="center">
-  <img src="./screenshots/jenkins_setup.png" width="800" alt="Jenkins Setup Page " />
-</p>
-
-2. ✅ EC2 Instance Details  
-<p align="center">
-  <img src="./screenshots/ec2_instance_running.png" width="800" alt="EC2 Instance Details " />
-</p>
-
-3. ✅ Jenkins Plugin Installation  
-<p align="center">
-  <img src="./screenshots/jenkins_plugin_install.png" width="800" alt="Jenkins Plugin Install " />
-</p>
-
-4. ✅ Jenkins Job Config (Trigger, Repo)
-<p align="center">
-  <img src="./screenshots/jenkins_job_config.png" width="800" alt="Jenkins Job Config " />
-</p>
-
-5. ✅ Jenkins Dasboard
-<p align="center">
-  <img src="./screenshots/jenkins_dashboard.png" width="800" alt="Jenkins Dasboard" />
-</p>
-
-6. ✅ Pipeline Running Stages (Build → Test → Deploy)  
-<p align="center">
-  <img src="./screenshots/pipeline_stages_running.png" width="800" alt="Pipeline Running Stages " />
-</p>
-
-7. ✅ Flask App Running in Browser
-<p align="center">
-  <img src="./screenshots/flask_browser_output.png" width="800" alt="Flask App Running in Browser" />
-</p>
-
-8. ✅ GitHub Webhook Settings
-<p align="center">
-  <img src="./screenshots/github_webhook_config.png" width="800" alt="GitHub Webhook Settings in Browser" />
-</p>
-
-9. ✅ Jenkins Auto Start Build After Any `push`
-<p align="center">
-  <img src="./screenshots/jenkins_autostart_build.png" width="800" alt="Jenkins Auto Start Build" />
-</p>
-
-10. ✅ Success Email Notification Received 
-<p align="center">
-  <img src="./screenshots/success_email.png" width="800" alt="Success Email Notification" />
-</p>
-
-11. ✅ Failed Email Notification Received  
-<p align="center">
-  <img src="./screenshots/failed_mail.png" width="800" alt="Failed Email Notification" />
-</p>
-
----
-
 ## ⚠️ Challenges Faced
 
 ### 1. Jenkins on t3.micro EC2
@@ -187,8 +127,8 @@ Before setting up the Jenkins pipeline, ensure the following are configured:
 
 ## 👤 Author
 
-- **U KUSHAL RAO**
-- GitHub: [@kushal1997](https://github.com/kushal1997)
+- **Sainath Islavath**
+- GitHub: [@sainathislavath](https://github.com/sainathislavath)
 
 ---
 

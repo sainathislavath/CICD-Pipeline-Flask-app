@@ -7,7 +7,6 @@ This repository presents two automated CI/CD pipelines for deploying a simple **
 You will find:
 - Jenkins-based CI/CD setup
 - GitHub Actions-based CI/CD setup
-- Screenshot evidence
 - Documented workflows and triggers
 
 ---
@@ -27,20 +26,12 @@ You will find:
 
 **Goal**: Build, test, and deploy a Flask application using a Jenkins pipeline.
 
-📂 [`1_JenkinsPipeline`](./1_JenkinsPipeline)  
+📂 [`JenkinsPipeline`](./1_JenkinsPipeline)  
 📜 Files Included:
 - `app.py`, `test_app.py`, `jenkinsfile`, `requirements.txt`
 - Jenkins pipeline stages: Build → Test → Deploy
 - GitHub Webhook Trigger
 - Email Notifications on success/failure
-
-📸 Screenshot Highlights:
-- Jenkins Setup & Plugins
-- Job Configuration
-- Auto Build Trigger
-- Pipeline Stages
-- Flask Output in Browser
-- Success & Failed Email Notifications
 
 ---
 
@@ -54,13 +45,6 @@ You will find:
 - Workflow Jobs: Install → Test → Build → Deploy (Staging & Production)
 - Trigger Conditions: `push` to `staging`, `tag` for production
 - Secrets managed via GitHub Secrets
-
-📸 Screenshot Highlights:
-- Secrets Setup
-- Workflow Executions (Staging + Production)
-- EC2 Output (Staging + Production)
-
-
 <br>
 
 ---

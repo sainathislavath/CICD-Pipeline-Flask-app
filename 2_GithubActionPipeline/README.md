@@ -100,54 +100,6 @@ Before using this CI/CD workflow, ensure the following:
    git push origin v1.0.0
    ```
 ---
-
-## 🖼️ Screenshots
-
-### ▶️ **Staging**
-
-1. ✅ Workflow Overview
-<p align="center">
-  <img src="./screenshots/staging_workflow.png" width="800" alt="Staging workflow overview" />
-</p>
-
-2. ✅ EC2 Instance
-<p align="center">
-  <img src="./screenshots/staging_ec2.png" width="800" alt="Staging EC2 Instance" />
-</p>
-
-3. ✅ Browser Results
-<p align="center">
-  <img src="./screenshots/staging_browser.png" width="800" alt="Staging browser results" />
-</p>
-
-<br>
-
-### 🚀 **Production**
-
-1. ✅ Workflow Overview
-<p align="center">
-  <img src="./screenshots/prod_workflow.png" width="800" alt="Production workflow overview" />
-</p>
-
-2. ✅ EC2 Instance
-<p align="center">
-  <img src="./screenshots/prod_ec2.png" width="800" alt="Production EC2 Instance" />
-</p>
-
-3. ✅ Browser Results
-<p align="center">
-  <img src="./screenshots/prod_browser.png" width="800" alt="Production browser results" />
-</p>
-
-<br>
-
-### 🔄 **Pull - Event**
-<p align="center">
-  <img src="./screenshots/pull_event_workflow.png" width="800" alt="Pull - Event workflow overview" />
-</p>
-
----
-
 ## ⚠️ Challenges Faced
 
 - EC2 was missing Python and pip initially, causing "command not found" errors
@@ -182,8 +134,8 @@ Before using this CI/CD workflow, ensure the following:
 
 ## 👤 Author
 
-- **U KUSHAL RAO**
-- GitHub: [@kushal1997](https://github.com/kushal1997)
+- **Sainath Islavath**
+- GitHub: [@sainathislavath](https://github.com/sainathislavath)
 
 ---
 
